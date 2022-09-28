@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdWg8JF4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexenddeca/v17/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1ArA.ttf) format('truetype');
+}
+body {
+  overflow: hidden;
+}
+main {
+  margin: 0 auto;
+  padding: 10% 15%;
+  display: flex;
+  justify-content: center;
+}
+.content-row {
+  display: flex;
+  justify-content: center;
+}
+.content-row div {
+  position: relative;
+  width: calc(350 / 1440*100vw);
+  height: 60vh;
+  padding: 40px;
+}
+.content-row div h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+.content-row div p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  width: 70%;
+  line-height: 25px;
+}
+.content-row div button {
+  font-family: "Lexend Deca", sans-serif;
+  position: absolute;
+  bottom: 10%;
+  width: 45%;
+  border: solid 2px hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.content-row div:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+}
+.content-row div:nth-child(1) button {
+  color: hsl(31, 77%, 52%);
+}
+.content-row div:nth-child(1) button:hover {
+  background: hsl(31, 77%, 52%);
+  border: solid 2px hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+.content-row div:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+.content-row div:nth-child(2) button {
+  color: hsl(184, 100%, 22%);
+}
+.content-row div:nth-child(2) button:hover {
+  background: hsl(184, 100%, 22%);
+  border: solid 2px hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+.content-row div:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+}
+.content-row div:nth-child(3) button {
+  color: hsl(179, 100%, 13%);
+}
+.content-row div:nth-child(3) button:hover {
+  background: hsl(179, 100%, 13%);
+  border: solid 2px hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+.attribution {
+  position: absolute;
+  bottom: 5%;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
